@@ -23,9 +23,10 @@ Scaled input features using StandardScaler
 ### Model Selection
 Implemented Random Forest Regressor to predict energy consumption
 
+
 ## 📊 Results
-- **Mean Absolute Error (MAE):** ~1822 MW  
-- **Root Mean Squared Error (RMSE):** ~2258 MW  
+- **Mean Absolute Error (MAE):** ~112 MW  
+- **Root Mean Squared Error (RMSE):** ~247 MW  
 
 ## 📦 Dependencies
 - os
