@@ -40,4 +40,30 @@ Implemented Random Forest Regressor to predict energy consumption
 - sklearn (RandomForestRegressor, StandardScaler, train_test_split, metrics)
 - matplotlib
 
+## Deployment User Guide
+Deployment: https://green-ops-hackathon-deployment-1.onrender.com
+**Postman**, **cURL**, or any HTTP client to send a request.
+
+### **Endpoint**
+\`\`\`bash
+POST /predict
+\`\`\`
+
+### **Request Body (JSON Format)**
+\`\`\`json
+{
+  "Hour": 12,
+  "Day": 15,
+  "Month": 3,
+  "DayOfWeek": 4
+}
+\`\`\`
+
+### **Response Example**
+\`\`\`json
+{
+  "Predicted Load (MW)": 24567.89
+}
+\`\`\`
+
 ## Developed by: Satish Singh, Arman Badyal, and Akshit Badyal
