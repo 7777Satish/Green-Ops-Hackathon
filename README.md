@@ -45,25 +45,25 @@ Deployment: https://green-ops-hackathon-deployment-1.onrender.com
 **Postman**, **cURL**, or any HTTP client to send a request.
 
 ### **Endpoint**
-\`\`\`bash
+```bash
 POST /predict
-\`\`\`
+```
 
 ### **Request Body (JSON Format)**
-\`\`\`json
+```json
 {
   "Hour": 12,
   "Day": 15,
   "Month": 3,
   "DayOfWeek": 4
 }
-\`\`\`
+```
 
 ### **Response Example**
-\`\`\`json
+```json
 {
   "Predicted Load (MW)": 24567.89
 }
-\`\`\`
+```
 
 ## Developed by: Satish Singh, Arman Badyal, and Akshit Badyal
