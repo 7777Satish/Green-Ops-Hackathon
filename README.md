@@ -23,10 +23,15 @@ Scaled input features using StandardScaler
 ### Model Selection
 Implemented Random Forest Regressor to predict energy consumption
 
+- Handles Non-Linearity – Time series data often has trends & seasonal patterns; Random Forest captures these better.
+- Feature Interactions – It considers complex dependencies between features automatically.
+- Robust to Noise & Missing Data – Unlike Linear Regression, it handles missing values & outliers well.
+- No Need for Stationarity – Works without making the data stationary, unlike traditional linear models.
+
 
 ## 📊 Results
-- **Mean Absolute Error (MAE):** ~112 MW  
-- **Root Mean Squared Error (RMSE):** ~247 MW  
+- **Mean Absolute Error (MAE):** ~112
+- **Root Mean Squared Error (RMSE):** ~247
 
 ## 📦 Dependencies
 - os
